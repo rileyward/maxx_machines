@@ -314,14 +314,14 @@ v
  .wrapper {
    width: 720px;
    margin: 0px auto;
-   
+
  }
- 
+
  .header {
    margin: 40px 0px 20px 0px;
-   
+
  }
- 
+
  .entry {
    width: 220px;
    float: left;
@@ -332,18 +332,18 @@ v
    -moz-box-shadow: 5px 5px 5px 5px #777777;
    -webkit-box-shadow: 5px 5px 5px 5px #777777;
    box-shadow: 5px 5px 5px 5px #777777;
-   
+
  }
- 
+
  figure {
    display: block;
    width: 202px;
    height: 170px;
    padding: 9px;
    text-align: left;
-   
+
  }
- 
+
  figure img {
    width: 200px;
    height: 150px;
@@ -351,13 +351,12 @@ v
    object-fit: cover;
 
  }
-   
+
    figcaption {
    text-align: right;
    padding-left: 20px;
    background-repeat: no-repeat;
-     
-     
+
+
    }
 /*GALLERY END*/
-
