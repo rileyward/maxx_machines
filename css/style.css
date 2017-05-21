@@ -1,0 +1,363 @@
+/*Font Start: This font was found at https://www.fontsquirrel.com/fonts/quicksand */
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*This font was found at https://www.fontsquirrel.com/fonts/Folks-Light?filter%5Blicense%5D%5B0%5D=web*/
+
+@font-face {
+    font-family: 'folksregular';
+    src: url('../fonts/Folks-Normal-webfont.eot');
+    src: url('../fonts/Folks-Normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Folks-Normal-webfont.woff') format('woff'),
+         url('../fonts/Folks-Normal-webfont.ttf') format('truetype'),
+         url('../fonts/Folks-Normal-webfont.svg#folksregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*This font was found at https://www.fontsquirrel.com/fonts/Folks-Light?filter%5Blicense%5D%5B0%5D=web*/
+
+
+
+@font-face {
+    font-family: 'folksbold';
+    src: url('../fonts/Folks-Bold-webfont.eot');
+    src: url('../fonts/Folks-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Folks-Bold-webfont.woff') format('woff'),
+         url('../fonts/Folks-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Folks-Bold-webfont.svg#folksbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*Font End Here*/
+
+* {
+	margin: 0 0 0 0;
+}
+
+/*grey_header Starts Here*/
+
+.grey_header_container {
+	background-color: grey;
+	width: 100%;
+  	height: 75px;
+  	margin: auto;
+  	z-index: 9500;
+}
+
+.slogan {
+  width: 50%;
+  height: 75px;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: folksregular;
+}
+
+
+
+/*Header Ends Here*/
+/*Logo Starts Here*/
+.purple_header_container {
+  	margin: auto;
+  	width: 100%;
+  	height: 100px;
+	  background-color: #6651a0;
+}
+
+.logo {
+    width: 100%;
+  	z-index: 9800;
+  	float: left;
+  	padding-top: 2px;
+    padding-left: 8px;
+}
+
+/*Logo Ends Here*/
+/* Menu Bar Starts Here */
+/* This menu bar was from https://codepen.io/andornagy/pen/xhiJH */
+
+
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+#bar {
+	position: absolute;
+	width: 90%;
+	height: 100px;
+	float: center;
+	font-size: 22px;
+	font-family: quicksandregular;
+	color: #ffffff;
+	z-index: 1000;
+	margin-top: -30px;
+	margin-left: 100px;
+}
+
+nav {
+	margin: 50px 0;
+	background-color: #6651a0;
+	z-index: 1000;
+}
+
+nav ul {
+	padding: 0;
+  	margin: 0;
+	list-style: none;
+	position: relative;
+	z-index: 1000;
+}
+
+
+nav ul li {
+	display: inline-block;
+	background-color: #6651a0;
+	z-index: 1000;
+}
+
+nav a {
+	display:block;
+	padding: 0 10px;
+	color: #FFF;
+	font-size: 20px;
+	line-height: 60px;
+	text-decoration: none;
+	z-index: 1000;
+}
+
+nav a:hover {
+	background-color: #000000;
+	z-index: 1000;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 60px; /* the height of the main nav */
+	z-index: 1000;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+	z-index: 1000;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/*Second, Third and more Tiers*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	left:170px;
+}
+v
+/*Menu Bar Ends Here*/
+/*Phone Number/Location For Menu Starts Here*/
+
+.schedule {
+  	width: 50%;
+  	height: 75px;
+  	float: right;
+  	text-align: center;
+  	margin-top: 100px;
+	  font-size: 18px; /*font stuff start*/
+  	background-color: none;
+	  color: white;
+	  font-family: folksregular;
+	  z-index: 1001;
+}
+
+/*Phone Number For Menu Ends Here*/
+/*Slideshow Starts Here*/ /*This slideshow was found at https://codepen.io/davidhc/pen/nLpJk*/
+
+.map_container {
+  width: 100%;
+  height: 375px;
+  margin: auto;
+}
+
+.slider {
+  width: 50%;
+  float: left;
+  height: 375px;
+  margin: auto;
+}
+
+.slide1,.slide2,.slide3 {
+  position: absolute;
+  width: 50%;
+  height: 375px;
+  margin: auto;
+}
+
+.slide1 {
+  background: url(../images/motocycle2.JPG) no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+}
+.slide2 {
+  background: url(../images/boat.jpg) no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background: url(../images/motorcycle.jpg) no-repeat center;
+    background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+/*Slideshow End He`re*/
+/*Information Box Starts Here*/
+
+.information_box_grey_container {
+	width: 100%;
+	height: 300px;
+	margin: auto;
+  	background-color: #bfbcbc;
+  	z-index: 2001;
+}
+
+
+.hours {
+	height: 90px;
+	margin-left: 125px;
+	margin-top: -75px;
+	color: white;
+	font-family: folksregular;
+	font-size: 32px;
+}
+
+.phonenumber {
+	height: 10px;
+	margin-left: 125px;
+	margin-top: -60px;
+	color: white;
+	font-family: folksregular;
+	font-size: 32px;
+}
+/*Information Box Ends Here*/
+/*CSS Image Gallery Starts Here. Found at*/
+
+/*CSS Image Gallery Ends Here*/
+/*Reviews Box Starts Here*/
+
+.r1 {
+    border: 10px solid purple;
+    font-family: folksregular;
+    font-size: 22px;
+}
+
+.r2 {
+    border: 10px solid purple;
+    font-family: folksregular;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.r3 {
+    border: 10px solid purple;
+    font-family: folksregular;
+    font-size: 22px;
+    margin-top: 8px;
+}
+/*Reviews Box Ends Here*/
+/*GALLERY START*/
+
+ .wrapper {
+   width: 720px;
+   margin: 0px auto;
+   
+ }
+ 
+ .header {
+   margin: 40px 0px 20px 0px;
+   
+ }
+ 
+ .entry {
+   width: 220px;
+   float: left;
+   margin: 10px;
+   height: 198px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   -moz-box-shadow: 5px 5px 5px 5px #777777;
+   -webkit-box-shadow: 5px 5px 5px 5px #777777;
+   box-shadow: 5px 5px 5px 5px #777777;
+   
+ }
+ 
+ figure {
+   display: block;
+   width: 202px;
+   height: 170px;
+   padding: 9px;
+   text-align: left;
+   
+ }
+ 
+ figure img {
+   width: 200px;
+   height: 150px;
+   background-position: center center;
+   object-fit: cover;
+
+ }
+   
+   figcaption {
+   text-align: right;
+   padding-left: 20px;
+   background-repeat: no-repeat;
+     
+     
+   }
+/*GALLERY END*/
+
