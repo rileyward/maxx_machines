@@ -60,6 +60,7 @@
 .slogan {
   width: 50%;
   height: 75px;
+  margin-left: 30px;
   float: left;
   text-align: center;
   padding-top: 20px;
@@ -107,7 +108,7 @@
 	color: #ffffff;
 	z-index: 1000;
 	margin-top: -30px;
-	margin-left: 100px;
+	margin-left: 175px;
 }
 
 nav {
@@ -268,46 +269,49 @@ v
 
 .hours {
 	height: 90px;
-	margin-left: 125px;
-	margin-top: -75px;
-	color: white;
+	margin: auto;
+	padding-left: 80px;
+	color: black;
 	font-family: folksregular;
 	font-size: 32px;
 }
 
 .phonenumber {
 	height: 10px;
-	margin-left: 125px;
-	margin-top: -60px;
-	color: white;
+	float: right;
+	margin-right: 300px;
+	margin-top: -90px;
+	color: black;
 	font-family: folksregular;
 	font-size: 32px;
 }
-/*Information Box Ends Here*/
-/*CSS Image Gallery Starts Here. Found at*/
 
-/*CSS Image Gallery Ends Here*/
+
+/*Information Box Ends Here*/
 /*Reviews Box Starts Here*/
 
-.r1 {
-    border: 10px solid purple;
-    font-family: folksregular;
-    font-size: 22px;
-}
+ .review_entry {
+   width: auto;
+   float: left;
+   margin: 10px;
+   height: auto;
+   background-repeat: no-repeat;
+   background-position: center center;
+   -moz-box-shadow: 5px 5px 5px 5px #777777;
+   -webkit-box-shadow: 5px 5px 5px 5px #777777;
+   box-shadow: 5px 5px 5px 5px #777777;
 
-.r2 {
-    border: 10px solid purple;
-    font-family: folksregular;
-    font-size: 22px;
-    margin-top: 8px;
-}
+ }
 
-.r3 {
-    border: 10px solid purple;
-    font-family: folksregular;
-    font-size: 22px;
-    margin-top: 8px;
-}
+  .review_caption {
+   text-align: center;
+   padding-left: 20px;
+   background-repeat: no-repeat;
+   font-size: 20px;
+   font-family: folksregular;
+
+   }
+
 /*Reviews Box Ends Here*/
 /*GALLERY START*/
 
@@ -360,3 +364,34 @@ v
 
    }
 /*GALLERY END*/
+/*about*/
+
+ .about_entry {
+   width: auto;
+   margin: 10px;
+   height: auto;
+   text-align: left;
+   padding-left: 5px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   -moz-box-shadow: 5px 5px 5px 5px #777777;
+   -webkit-box-shadow: 5px 5px 5px 5px #777777;
+   box-shadow: 5px 5px 5px 5px #777777;
+   font-family: folksregular;
+ }
+
+  .contact_entry {
+   width: auto;
+   margin: 10px;
+   height: auto;
+   text-align: left;
+   padding-top: 10px;
+   padding-left: 5px;
+   padding-bottom: 5px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   -moz-box-shadow: 5px 5px 5px 5px #777777;
+   -webkit-box-shadow: 5px 5px 5px 5px #777777;
+   box-shadow: 5px 5px 5px 5px #777777;
+   font-family: folksregular;
+ }
